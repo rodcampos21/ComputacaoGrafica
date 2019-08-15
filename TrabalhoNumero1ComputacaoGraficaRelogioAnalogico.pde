@@ -64,9 +64,11 @@ PVector convertAndTranslate(float theta, float r) {
     line(APP_CENTRO, APP_CENTRO, endPoint.x, endPoint.y);
     
     //desenha os numeros do relogio
+    //convertandtranslate converte de coordenada polar para plano cartesiano
     for(int number =1; number <= 12; number++){
       theta = TWO_PI * (number / 12.0);
       endPoint = convertAndTranslate(theta, COMPRIMENTO_SEGUNDOS_MAO);
+      textAlign(CENTER);
       text(Integer.toString(number), endPoint.x, endPoint.y);
     }
   
