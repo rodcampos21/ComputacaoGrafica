@@ -1,5 +1,6 @@
 final float COMPRIMENTO_SEGUNDOS_MAO = 250.0; //Comprimento da mão de segundos; os outros tamanhos escalam baseados nesse aqui
 //final é usado  para afirmar que um valor, classe ou metodo nao podem ser mudados
+//https://www.youtube.com/watch?v=jRMv6UExvXA&list=PLkJ4kBc8wVkUUUYwkd0ip_axkEPEINnPG
 
 final int APP_LARGURA =int( 2 * COMPRIMENTO_SEGUNDOS_MAO + 30.0);  //LARGURA e tamanho do aplicativo
 
